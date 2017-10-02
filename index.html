@@ -5,27 +5,29 @@
   <title>HTML template</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
 </head>
 <body>
   <header>
     <h1>Beetroot <i>(Beta Vulgaris)</i></h1>
     <nav>
       <ol>
-        <li>Common varieties</li>
-        <li>Nutritional information</li>
-        <li>Tags</li>
+        <li><a href="#common">Common varieties</a></li>
+        <li><a href="#nutritional">Nutritional information</a></li>
+        <li><a href="#tags">Tags</a></li>
       </ol>
     </nav>
   </header>
   <main>
     <figure>
-      <img src="images/beets.jpg" alt="Beets">
+      <img class="beets" src="images/beets.jpg" alt="Beets">
       <figcaption>A bundle of organic beets from a local farm food co-op program.</figcaption>
     </figure>
     <strong><data value="55">55</data> to <data value="65">65</data> days are needed from germination to harvest of the root.</strong>
-    <p>The usually deep roots of <b>beetroot</b> are eaten either grilled, boiled, or roasted as a cooked vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded, either alone or combined with any salad vegetable.<br>In fact, <i>Jim Halpert</i> once said this about beets, <q>"Fact, bears eat beets. Bears, beets, <em>Battlestar Galactica</em>"</q>.</p>
+    <p>The usually deep purple roots of <b>beetroot</b> are eaten either grilled, boiled, or roasted as a cooked vegetable, cold as a salad after cooking and adding oil and vinegar, or raw and shredded, either alone or combined with any salad vegetable.<br>In fact, <i>Jim Halpert</i> once said this about beets, <q>"Fact, bears eat beets. Bears, beets, <em>Battlestar Galactica</em>"</q>.</p>
     <blockquote>I have some weird habits. For instance, I love beets. Show me a salad bar and I will clean them out of their beets.<cite>Chris Pratt</cite></blockquote>
-    <aside>
+    <aside id="common">
       <h2>Common Varieties</h2>
       <ol>
         <li>Albino</li>
@@ -35,7 +37,7 @@
         <li>Early Wonder</li>
       </ol>
     </aside>
-    <aside>
+    <aside id="nutritional">
       <h2>Nutritional Information</h2>
       <i>Serving size: 100 g</i>
       <dl>
@@ -49,7 +51,7 @@
         <dd>1.68 g</dd>
       </dl>
     </aside>
-    <aside>
+    <aside id="tags">
       <h2>Tags</h2>
       <ul>
         <li><small>Crimson</small></li>
@@ -59,7 +61,7 @@
         <li><small>Delicious</small></li>
       </ul>
     </aside>
-    <small>Source: <a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>; Last modified: <time datetime="2014-30-08T04:57">Aug 30, 2014</time></small>
+    <small>Source: <a href="https://en.wikipedia.org/wiki/Main_Page">Wikipedia</a>; Last modified: <time datetime="2014-08-30T04:57">Aug 30, 2014</time></small>
   </main>
   <footer>
   </footer>

@@ -1,6 +1,12 @@
 html, body {
   line-height: 1.5;
-  background-color:  #c9b5ab;
+  background-color: #c9b5ab;
+  font-family: "PT Serif", serif;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6, nav {
+  font-family: "PT Sans", sans-serif;
 }
 
 h1 {
@@ -9,13 +15,30 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  color: #3f1622;
+  font-weight: bold;
+}
+
 nav ol {
+  list-style-type: none;
+}
+
+nav ol li a {
   color: #8f2440;
-  list-style: none;
   font-size: 1.125rem;
   font-weight: bold;
 }
 
-nav ol li a {
+img {
+  width: 100%;
+}
+
+a {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3f1622;
 }
