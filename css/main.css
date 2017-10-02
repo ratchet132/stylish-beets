@@ -1,0 +1,21 @@
+html, body {
+  line-height: 1.5;
+  background-color:  #c9b5ab;
+}
+
+h1 {
+  font-size: 1.5rem;
+  color: #3f1622;
+  font-weight: bold;
+}
+
+nav ol {
+  color: #8f2440;
+  list-style: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+nav ol li a {
+  text-decoration: none;
+}
